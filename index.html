@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>variables</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body>
+    
+    <span class="h">css variables</span>
+    <div class="controls">
+      
+      <label for="spacing">spacing</label>
+      <input
+        type="range"
+        id="spacing"
+        min="10"
+        max="100"
+        value="10"
+        data-sizing="px"
+        name="spacing"
+      />
+      <label for="blur">blur</label>
+      <input
+        type="range"
+        id="blur"
+        min="1"
+        max="100"
+        value="10"
+        data-sizing="px"
+        name="blur"
+      />
+      <label for="bcolor">Base colour</label>
+      <input type="color" id="bcolor" value="#ffc600" name="bcolor" />
+    </div>
+    <img
+      src="./flowers.jpeg"
+      alt="flowers image"
+      width="500px"
+      height="500px"
+    />
+    <script src="script.js"></script>
+  </body>
+</html>
